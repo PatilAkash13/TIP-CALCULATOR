@@ -1,0 +1,62 @@
+.main
+{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/WBC_7095.jpg?format=2500w");
+} 
+
+
+.main
+{
+    margin: 0; padding: 0%; box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tipp{
+    max-width: 500px; height: auto;
+    padding: 60px;
+    box-shadow: 1px 1px 10px 1px rgba(253, 65, 65, 0.897);
+    background-image: url('https://www.teahub.io/photos/full/0-3761_green-background-mobile.jpg');
+}
+h2{
+    color: rgb(185, 255, 255);
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-shadow: 2px 4px 2px rgba(247, 13, 13, 0.932);
+    text-transform: capitalize;
+    border: solid;
+    background: linear-gradient(#e66465, #9198e5);
+    
+}
+label{
+    display: block;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+input{
+    width: 200px;
+    padding: 10px 0;
+}
+button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    color: rgb(192, 3, 3);
+    background: #f5cb41b2;
+    box-shadow: 1px 2px 5px 1px #2d3436;
+    margin-top: 20px;
+
+}
+
+.prct{
+    color: rgb(22, 25, 221);
+    size: 30px;
+    padding: 10px 15px;
+    font-size: 20px;
+    
+}

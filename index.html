@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Tip Cal</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+
+</head>
+
+<body class="main">
+    <div>
+        <h2>Tip Calculator</h2>
+    </div>
+    <div class="tipp">
+        <label>Enter Your Bill Amount</label>
+        <input type="text" name="" id="bill_amt">
+        <br>
+
+        <label>Tip Percent</label>
+        <select name="Percent" id="tip_per" class="prct">
+            <option value="20">Excellent- 20%</option>
+            <option value="10">Medium- 10%</option>
+            <option value="5">Not so good- 5%</option>
+        </select>
+
+
+        <label>How Many Peoples Are Sharing the Bill ?</label>
+        <input type="text" name="" id="people">
+        <br>
+
+        <label>Total Amount Each </label>
+        <input type="text" name="" id="total_bill" disabled>
+        <br>
+        <button onclick="tipcal()">Calculate</button>
+    </div>
+</body>
+
+</html>
